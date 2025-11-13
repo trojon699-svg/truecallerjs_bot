@@ -436,7 +436,7 @@ function sendTypingIndicator(): void {
   fetch(
     `https://api.telegram.org/bot${
       Deno.env.get(
-        "TG_THIS_BOT_TOKEN",
+        "7653874720:AAFX2U8G1KUiawi84-Kl0Q0Hd0AuWrU0pfM",
       )
     }/sendChatAction`,
     {
